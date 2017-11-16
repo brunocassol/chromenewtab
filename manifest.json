@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+   "chrome_url_overrides": {
+      "newtab": "redirect.html"
+   },
+   "description": "Replaces New Tab page with a plain dark tab. So you don't get flashed when opening a new tab.",
+   "icons": {
+      "128": "icon-128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBcajHEHZIkV4c1qbqjhELd0hyhHL1uT8SRGgZScZGskI2KSSK6yewDxZ+eEq2p33FCs5c6V2QfFPqL8VbmZZUd2D+ZMGfZOA1OEKaa053YPEF6smzEeePaHdCdiwZJUKT2gdBI0LqUCueC9A4TEQNfhQlDh7B6wzrlOv1xGLtSwIDAQAB",
+   "name": "Dark New Tab Page",
+   "permissions": [ "tabs" ],
+   "version": "1.0"
+}

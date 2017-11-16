@@ -1,0 +1,23 @@
+<html>
+<head>
+	<style type="text/css">
+	body {
+		background-color: #242424;
+	}
+	</style>
+	<script>
+	function getUrl() {
+	  if (localStorage.customURL)
+		chrome.tabs.getSelected(null, function (tab){
+			chrome.tabs.update(tab.id,{"url":localStorage.customURL})}
+		)
+	  else
+	    document.write('<meta http-equiv="refresh"content="0;URL=options.html">');
+	  return null;
+	}
+	//getUrl();
+	</script>
+	</head>
+	<body>
+	</body>
+</html>
